@@ -59,6 +59,7 @@ vendor/firmware/lmecpu_IMX682.json
 vendor/firmware/lmecpu_S5KGD2.json
 vendor/firmware/lmecpu_S5KGW1.json
 vendor/firmware/mfc_fw.bin
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 vendor/firmware/os.checked.bin
 vendor/firmware/rxse.bin
 vendor/firmware/sb_others.bin
@@ -84,9 +85,6 @@ vendor/firmware/txse2.bin
 vendor/bin/hw/android.hardware.security.keymint-service:vendor/bin/hw/android.hardware.security.keymint-service.samsung
 vendor/lib64/libskeymint10device.so
 vendor/lib64/libskeymint_cli.so
-
-# Nfc
-vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # Ramdisk firmware
 vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
