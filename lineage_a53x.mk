@@ -36,3 +36,9 @@ PRODUCT_CHARACTERISTICS := phone
 
 # UDFPS
 TARGET_HAS_UDFPS := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXSGFYG1 release-keys" \
+    BuildFingerprint=samsung/a53xnaxx/essi:15/AP3A.240905.015.A2/A536BXXSGFYG1:user/release-keys \
+    DeviceProduct=a53xnaxx \
+    SystemName=a53xnaxx
