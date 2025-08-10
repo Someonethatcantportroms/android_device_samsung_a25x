@@ -5835,7 +5835,7 @@
     <!-- Capture paths -->
     <path name="gain-media-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="8738" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="5" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-media-2nd-mic">
@@ -5854,14 +5854,18 @@
     </path>
 
     <path name="gain-media-headset-mic">
+        <ctl name="VTS DMIC GAIN MODE0" value="8738" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-media-headset-main-mic">
+        <ctl name="VTS DMIC GAIN MODE0" value="8738" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-media-headphone-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="8738" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="5" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-media-bt-sco-headset-in">
@@ -5899,27 +5903,29 @@
     <!-- Voice Recording paths -->
     <path name="gain-recording-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-recording-2nd-mic">
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <path name="gain-recording-dualmic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <path name="gain-recording-headset-mic">
+        <ctl name="VTS DMIC GAIN MODE0" value="6168" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-recording-headphone-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-recording-bt-sco-headset-in">
@@ -5941,34 +5947,36 @@
     <!-- Camcording paths -->
     <path name="gain-camcorder-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-camcorder-2nd-mic">
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <path name="gain-camcorder-dualmic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <path name="gain-camcorder-multi-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <path name="gain-camcorder-headset-mic">
+        <ctl name="VTS DMIC GAIN MODE0" value="6168" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-camcorder-headphone-mic">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
     </path>
 
     <path name="gain-camcorder-usb-headset-mic">
@@ -5980,8 +5988,8 @@
     <path name="gain-camcorder-multi-mic-bt-sco-headset-in">
         <ctl name="VTS DMIC GAIN MODE0" value="6168" />
         <ctl name="VTS DMIC GAIN MODE1" value="6168" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
-        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="0" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN0" value="21" />
+        <ctl name="VTS CONTROL DMIC AUD GAIN1" value="21" />
     </path>
 
     <!-- Recognition Input paths -->
