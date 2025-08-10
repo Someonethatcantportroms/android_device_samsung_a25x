@@ -1,0 +1,2 @@
+# TEEgris
+mount none /vendor/tee/SM-A536B /vendor/tee bind
