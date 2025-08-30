@@ -25,11 +25,14 @@ DEVICE_PATH := device/samsung/a53x
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
-TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# SKU
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/sku/vendor_sku.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/sku/system_sku.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/configs/sku/odm_sku.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/sku/product_sku.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/sku/system_ext_sku.prop
 
 # UDFPS
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
