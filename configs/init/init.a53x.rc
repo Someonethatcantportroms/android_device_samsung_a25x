@@ -85,3 +85,8 @@ on boot
     chown system radio /sys/class/sensors/grip_sensor_sub/unknown_state
     chown system radio /sys/class/sensors/grip_sensor_sub/unknown_state_2ch
 	  chown system radio /sys/class/sensors/grip_sensor_sub/noti_enable
+
+on fs
+    # SPU
+    wait /dev/block/by-name/spu
+    mount ext4 /dev/block/by-name/spu /spu nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
