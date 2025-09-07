@@ -1,3 +1,17 @@
+# Firmware for model SC-53C - from Samsung package version SC53COMU1DYF2
+
+fld.bin_SC-53C|f09871971e5f17747fbbe8359dc2f1070ab6a237
+harx.bin_SC-53C|8599ab8dcf609a2442cfbeab4aefa24d646f5962
+keystorage.bin_SC-53C|d21a6b3877d0c2ec1a59e8b25f0c856e88c1171c
+ldfw.img_SC-53C|d7f7342cbb7b09ffaa3a45080118ee809f6ef9fe
+modem.bin_SC-53C|1394961de30d4332012f75a70c6e27d02dd7283a
+modem_debug.bin_SC-53C|b16bb334f9ae8cd6334e2653aa447aed69fdcd9f
+sboot.bin_SC-53C|fe98ac7f931a35a217c72a60e040cadcf1c96a06
+tzar.img_SC-53C|05be35e6ae6589f24245cbe7ffb9b42aad170ef3
+tzsw.img_SC-53C|aefccd20f832a31031269194aec00b70e1e45665
+uh.bin_SC-53C|93de45cb1f34fed539e27fd3cd2256e9b2cc8eed
+up_param.bin_SC-53C|f7ebc7889cc7c8391bdcec7b1770fd20ce7a86ba
+
 # Firmware for model SM-A5360 - from Samsung package version A5360ZCSHFYH1
 
 fld.bin_SM-A5360|8c2c1cc4dd28e17b640711c26800ecb73469de8c
@@ -56,9 +70,10 @@ uh.bin_SM-A536N|260b2675991b26d08de70b659447f0c07e25becf
 up_param.bin_SM-A536N|e38a50cec3a9554d69a1f64a4d1bcab55aa83add
 
 # File containing the supported models, one per line
-models|55dc7631cb6fb99192a5f727fb29417b9c9015b8
+models|bb556eb363236518d8e6dfc2ced279e20f740946
 
 # Files containing Samsung package version for supported models
+version_SC-53C|db93f19869cac1a8fdc21b12eadf778d59738c97
 version_SM-A5360|c893a382fc637cc38b6a06c6f1ca18b16bb14d22
 version_SM-A536B|ee1ff6e5e19b2d8167fb70368cd5ab187b3814d9
 version_SM-A536E|436cf8cf0686fdfa22780dcb3b9a0a16d83a6bd4

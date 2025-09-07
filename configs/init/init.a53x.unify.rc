@@ -50,6 +50,19 @@ on early-init && property:ro.boot.em.model=SM-A536N
     # TEEgris
     mount none /vendor/tee/SM-A536N /vendor/tee bind
 
+# a53xdcm (jpn_dcm)
+on early-init && property:ro.boot.em.model=SC-53C
+    # Firmware blobs
+    mount none /vendor/firmware/SC-53C/AP_AUDIO_SLSI.bin /vendor/firmware/AP_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SC-53C/APDV_AUDIO_SLSI.bin /vendor/firmware/APDV_AUDIO_SLSI.bin bind
+    mount none /vendor/firmware/SC-53C/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
+    mount none /vendor/firmware/SC-53C/NPU.bin /vendor/firmware/NPU.bin bind
+    mount none /vendor/firmware/SC-53C/os.checked.bin /vendor/firmware/os.checked.bin bind
+    mount none /vendor/firmware/SC-53C/vts.bin /vendor/firmware/vts.bin bind
+    mount none /vendor/firmware/SC-53C/calliope_sram.bin /vendor/firmware/calliope_sram.bin bind
+    # TEEgris
+    mount none /vendor/tee/SC-53C /vendor/tee bind
+
 # Restart just to be safe.
 on boot
     restart audioserver
