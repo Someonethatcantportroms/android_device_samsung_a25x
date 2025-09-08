@@ -64,31 +64,3 @@ PRODUCT_COPY_FILES += \
 # UDFPS
 $(call soong_config_set,samsung_udfps,udfps_zorder,0x2000U)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
-
-# SKU
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sku/odm_a53x/odm_SC-53C.prop:$(TARGET_COPY_OUT_ODM)/build_SC-53C.prop \
-    $(LOCAL_PATH)/configs/sku/odm_a53x/odm_SM-A5360.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A5360.prop \
-    $(LOCAL_PATH)/configs/sku/odm_a53x/odm_SM-A536B.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A536B.prop \
-    $(LOCAL_PATH)/configs/sku/odm_a53x/odm_SM-A536E.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A536E.prop \
-    $(LOCAL_PATH)/configs/sku/odm_a53x/odm_SM-A536N.prop:$(TARGET_COPY_OUT_ODM)/build_SM-A536N.prop \
-    $(LOCAL_PATH)/configs/sku/product_a53x/product_SC-53C.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SC-53C.prop \
-    $(LOCAL_PATH)/configs/sku/product_a53x/product_SM-A5360.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A5360.prop \
-    $(LOCAL_PATH)/configs/sku/product_a53x/product_SM-A536B.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A536B.prop \
-    $(LOCAL_PATH)/configs/sku/product_a53x/product_SM-A536E.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A536E.prop \
-    $(LOCAL_PATH)/configs/sku/product_a53x/product_SM-A536N.prop:$(TARGET_COPY_OUT_PRODUCT)/build_SM-A536N.prop \
-    $(LOCAL_PATH)/configs/sku/system_a53x/system_SC-53C.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SC-53C.prop \
-    $(LOCAL_PATH)/configs/sku/system_a53x/system_SM-A5360.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A5360.prop \
-    $(LOCAL_PATH)/configs/sku/system_a53x/system_SM-A536B.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A536B.prop \
-    $(LOCAL_PATH)/configs/sku/system_a53x/system_SM-A536E.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A536E.prop \
-    $(LOCAL_PATH)/configs/sku/system_a53x/system_SM-A536N.prop:$(TARGET_COPY_OUT_SYSTEM)/build_SM-A536N.prop \
-    $(LOCAL_PATH)/configs/sku/system_ext_a53x/system_ext_SC-53C.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SC-53C.prop \
-    $(LOCAL_PATH)/configs/sku/system_ext_a53x/system_ext_SM-A5360.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A5360.prop \
-    $(LOCAL_PATH)/configs/sku/system_ext_a53x/system_ext_SM-A536B.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A536B.prop \
-    $(LOCAL_PATH)/configs/sku/system_ext_a53x/system_ext_SM-A536E.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A536E.prop \
-    $(LOCAL_PATH)/configs/sku/system_ext_a53x/system_ext_SM-A536N.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/build_SM-A536N.prop \
-    $(LOCAL_PATH)/configs/sku/vendor_a53x/vendor_SC-53C.prop:$(TARGET_COPY_OUT_VENDOR)/build_SC-53C.prop \
-    $(LOCAL_PATH)/configs/sku/vendor_a53x/vendor_SM-A5360.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A5360.prop \
-    $(LOCAL_PATH)/configs/sku/vendor_a53x/vendor_SM-A536B.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A536B.prop \
-    $(LOCAL_PATH)/configs/sku/vendor_a53x/vendor_SM-A536E.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A536E.prop \
-    $(LOCAL_PATH)/configs/sku/vendor_a53x/vendor_SM-A536N.prop:$(TARGET_COPY_OUT_VENDOR)/build_SM-A536N.prop
