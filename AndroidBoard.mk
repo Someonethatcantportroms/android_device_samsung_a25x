@@ -14,11 +14,9 @@
 # limitations under the License.
 #
 
-MKDTBOIMG  := $(HOST_OUT_EXECUTABLES)/mkdtboimg$(HOST_EXECUTABLE_SUFFIX)
-KERNEL_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ
-DTBO_DIR    := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts/exynos/samsung/a53x
-DTBO_CFG    := $(DEVICE_PATH)/configs/kernel/a53x_jpn.cfg
-
+MKDTBOIMG                      := $(HOST_OUT_EXECUTABLES)/mkdtboimg$(HOST_EXECUTABLE_SUFFIX)
+DTBO_DIR                       := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ//arch/$(KERNEL_ARCH)/boot/dts/exynos/samsung/a53x
+DTBO_CFG                       := $(DEVICE_PATH)/configs/kernel/a53x_jpn.cfg
 INSTALLED_DTBOIMAGE_JPN_TARGET := $(PRODUCT_OUT)/dtbo_jpn.img
 
 $(INSTALLED_DTBOIMAGE_JPN_TARGET): $(PRODUCT_OUT)/kernel $(MKDTBOIMG)

@@ -1,5 +1,4 @@
 # Firmware for model SC-53C - from Samsung package version SC53COMU1DYF2
-
 fld.bin_SC-53C|f09871971e5f17747fbbe8359dc2f1070ab6a237
 harx.bin_SC-53C|8599ab8dcf609a2442cfbeab4aefa24d646f5962
 keystorage.bin_SC-53C|d21a6b3877d0c2ec1a59e8b25f0c856e88c1171c
@@ -13,7 +12,6 @@ uh.bin_SC-53C|93de45cb1f34fed539e27fd3cd2256e9b2cc8eed
 up_param.bin_SC-53C|f7ebc7889cc7c8391bdcec7b1770fd20ce7a86ba
 
 # Firmware for model SM-A5360 - from Samsung package version A5360ZCSHFYH1
-
 fld.bin_SM-A5360|8c2c1cc4dd28e17b640711c26800ecb73469de8c
 harx.bin_SM-A5360|1364ceae7330ef842cd616a723fe58159ace3108
 keystorage.bin_SM-A5360|7d0195e90762717e127b118132f6db953c2b6797
@@ -27,7 +25,6 @@ uh.bin_SM-A5360|d6197102f2c03db3cdb276fa048b04fca8bd83f9
 up_param.bin_SM-A5360|3288867b0944caee4521c244257af973c6f0f003
 
 # Firmware for model SM-A536B - from Samsung package version A536BXXSHFYH1
-
 fld.bin_SM-A536B|f466b89e22eebbd244a513eb7341927ae3ceee88
 harx.bin_SM-A536B|5b93368da6fd6eec1e50a65b05294e9a313c99cf
 keystorage.bin_SM-A536B|47f938c3d52d841e48e1305d73d3080b1bc48059
@@ -42,7 +39,6 @@ up_param.bin_SM-A536B|4db15ca175e6ae77634dca976982b3f064efc42f
 
 
 # Firmware for model SM-A536E - from Samsung package version A536EXXSHFYH2
-
 fld.bin_SM-A536E|dc86d3d943239e3f24c6e89d86aec2a1d5327cbe
 harx.bin_SM-A536E|eee5997aafd74d8adf4f3cb764043accc75edaa1
 keystorage.bin_SM-A536E|4ae42df23aa2623886c5306d8886b04b24ce47cf
@@ -56,7 +52,6 @@ uh.bin_SM-A536E|371eb8c9205cb41550ee76d334ba83b0c8f189ff
 up_param.bin_SM-A536E|e3cf8eef1d5031b1e2b87dbf275c6c94b23ebe18
 
 # Firmware for model SM-A536N - from Samsung package version A536NKSSCFYH1
-
 fld.bin_SM-A536N|a685bfeedc51249b11e9443fac0f50c1ef9831f6
 harx.bin_SM-A536N|1339b5cb83d5a2c4e4eb49c3a4d4a782bbe9e1f8
 keystorage.bin_SM-A536N|411b0af311068d93547aed83981c0dc54e21ca85
