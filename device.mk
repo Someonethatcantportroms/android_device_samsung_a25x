@@ -39,12 +39,13 @@ PRODUCT_COPY_FILES += \
 # Nfc
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.samsung
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
-    $(DEVICE_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    $(DEVICE_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    $(DEVICE_PATH)/configs/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
-    $(DEVICE_PATH)/configs/nfc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf
+# Nfc - Configuration
+PRODUCT_PACKAGES += \
+    libese-nxp.conf \
+    libnfc-nci.conf \
+    libnfc-nxp.conf \
+    libnfc-nxp_RF.conf \
+    libnfc-sec-vendor.conf
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
