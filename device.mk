@@ -32,9 +32,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/audio_board_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_board_info.xml
 
 # Init
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/init/init.a53x.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a53x.rc \
-    $(DEVICE_PATH)/configs/init/init.a53x.unify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.a53x.unify.rc
+PRODUCT_PACKAGES += \
+    init.a53x.rc \
+    init.a53x.unify.rc
 
 # Nfc
 PRODUCT_PACKAGES += android.hardware.nfc@1.2-service.samsung
