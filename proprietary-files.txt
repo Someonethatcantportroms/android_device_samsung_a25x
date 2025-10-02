@@ -329,7 +329,7 @@ vendor/tee/SM-A536N/00000000-0000-0000-0000-6d706f667376|43c26d97e2fad50f7db618a
 vendor/tee/SM-A536N/00000000-0000-0000-0000-6d73745f5441|8dec7deff3d988615380aa8052744911c455dbfd
 vendor/tee/SM-A536N/ffffffff-0000-0000-0000-000000000030|91b1b590095146a6cab885bebbc728b7557ed641
 
-# WiFi
+# Wi-Fi
 vendor/etc/wifi/mx140_common.hcf
 vendor/etc/wifi/mx140_t_wlan.hcf
 vendor/etc/wifi/mx140_t_wlan_t.hcf
