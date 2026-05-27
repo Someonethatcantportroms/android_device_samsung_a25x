@@ -14,24 +14,24 @@
 # limitations under the License.
 #
 
-# Inherit from a53x device
-$(call inherit-product, device/samsung/a53x/device.mk)
+# Inherit from a25x device
+$(call inherit-product, device/samsung/a25x/device.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a53x
-PRODUCT_NAME := lineage_a53x
+PRODUCT_DEVICE := a25x
+PRODUCT_NAME := lineage_a25x
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A536B
+PRODUCT_MODEL := SM-A256B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 34
 BOARD_SHIPPING_API_LEVEL := 31
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a53xnaxx-user 15 AP3A.240905.015.A2 A536BXXSHFYI1 release-keys" \
-    BuildFingerprint=samsung/a53xnaxx/essi:15/AP3A.240905.015.A2/A536BXXSHFYI1:user/release-keys \
-    DeviceProduct=a53xnaxx \
-    SystemName=a53xnaxx
+    BuildDesc="a25xxnaxx-user 15 AP3A.240905.015.A2 A256BXXSHFYI1 release-keys" \
+    BuildFingerprint=samsung/a25xnaxx/essi:15/AP3A.240905.015.A2/A256BXXSHFYI1:user/release-keys \
+    DeviceProduct=a25xnaxx \
+    SystemName=a25xnaxx
