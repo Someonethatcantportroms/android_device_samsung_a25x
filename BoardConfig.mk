@@ -14,15 +14,15 @@
 # limitations under the License.
 
 # Inherit proprietary files
-include vendor/samsung/a53x/BoardConfigVendor.mk
+include vendor/samsung/a25x/BoardConfigVendor.mk
 
 # Inherit board configuration from common tree
 include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/a53x
+DEVICE_PATH := device/samsung/a25x
 
 # DTBO
-BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a53x.cfg
+BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/a25x.cfg
 
 # UDFPS
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
